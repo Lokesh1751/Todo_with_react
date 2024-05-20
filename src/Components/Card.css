@@ -1,0 +1,41 @@
+.mytodo {
+  background-color: rgb(232, 228, 228);
+
+  border-radius: 20px;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bin {
+  margin: 10px;
+  cursor: pointer;
+  padding: 7px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 20px;
+}
+.innerdiv {
+  display: flex;
+  gap: 10px;
+}
+.checkbox {
+  transform: scale(1.5);
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 6px;
+}
+.completed {
+  text-decoration: line-through;
+}
+.bin:hover {
+  background-color: rgba(255, 0, 0, 0.866);
+  padding: 9px;
+  transition: 0.2s ease-in-out;
+}
