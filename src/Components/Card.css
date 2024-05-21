@@ -1,6 +1,5 @@
 .mytodo {
   background-color: rgb(232, 228, 228);
-
   border-radius: 20px;
   width: 700px;
   display: flex;
@@ -38,4 +37,40 @@
   background-color: rgba(255, 0, 0, 0.866);
   padding: 9px;
   transition: 0.2s ease-in-out;
+}
+
+
+
+@media (max-width:800px){
+  .mytodo{
+    width: 400px;
+    display: flex;
+    align-items: center;
+  }
+  .title{
+    font-size: 18px;
+  }
+}
+@media (max-width:550px){
+  .mytodo{
+    width: 320px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .title{
+    font-size: 15px;
+  }
+}
+
+@media (max-width:450px){
+  .mytodo{
+    width: 250px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .title{
+    font-size: 14px;
+  }
 }
